@@ -1,0 +1,3 @@
+header('Location:http:http://jannatrestaurant.com.bd');<?php
+	header('Location:http:http://jannatrestaurant.com.bd');
+?>

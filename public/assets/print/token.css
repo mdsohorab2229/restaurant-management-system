@@ -1,0 +1,81 @@
+@media print {
+
+    #invoice-POS {
+        box-shadow: 0 0 1in -0.25in rgba(0, 0, 0, 0.5);
+        padding: 3mm;
+        margin: 0 auto;
+        width: 70mm;
+        background: #FFF;
+        color:black;
+
+    }
+    ::selection {background: #f31544; color: #FFF;}
+
+    h1{
+        font-size: 1em;
+    }
+    h2{font-size: 1em;}
+    h3{
+        font-size: 1.3em;
+        font-weight: 300;
+        line-height: 2em;
+    }
+    .customp{
+        font-size: .8em;
+        color: rgba(4, 3, 36,1);
+        line-height: .1em;
+    }
+    .legal {
+        line-height: 1em;
+        font-size:9px;
+    }
+
+    #top, #mid,#bot{ /* Targets all id with 'col-' */
+        border-bottom: 1px solid #EEE;
+    }
+
+    #top{min-height: 50px; font-size: 9px;}
+    #mid{min-height: 80px;}
+    #bot{ min-height: 50px;}
+
+
+    .info{
+        display: block;
+    //float:left;
+        margin-left: 0;
+    }
+    .title{
+        float: right;
+    }
+    .title p{text-align: right;}
+    table{
+        width: 100%;
+        border-collapse: collapse;
+    }
+    td{
+    //padding: 5px 0 5px 15px;
+    //border: 1px solid #EEE
+    }
+    .tabletitle{
+    //padding: 5px;
+        font-size: .6em;
+        background: #EEE;
+        line-height: 1px;
+    }
+    .service{border-bottom: 1px solid #EEE;}
+    .item{width: 24mm;}
+    .itemtext{font-size: .6em;}
+
+    #legalcopy{
+        margin-top: 5mm;
+    }
+
+    .right_content
+    {
+        text-align: right;
+        padding-top: 1px;
+    }
+
+    }
+
+
